@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:'Palette Mosaic', cursive; 
+    src: url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+   
+}
+@font-face{
+    font-family:'Bebas Neue', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+}
+textarea,button{
+    font-family: 'Bebas Neue', cursive !important;
+}
+h1,h2{
+    font-size: 18px;
+    font-family:'Palette Mosaic', cursive; 
+}
+header{
+    background-color: rgba(34, 148, 138, 0.884);
+    text-align: center;
+    padding: 10px;
+     
+}
+a{
+    text-decoration: none !important;
+    color: white;
+}
+section{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+section *{
+    display:block;
+    padding: 6px;
+    margin-bottom: 5px;
+
+}
